@@ -3,17 +3,6 @@ TCGA-BRCA RNA-seq Classification Analysis
 Annie Stevenson
 Last update: 09 February, 2026
 
-<style>
-pre code, pre, code {
-  white-space: pre !important;
-  overflow-x: auto !important;
-  word-break: keep-all !important;
-  word-wrap: initial !important;
-}
-body {
-text-align: justify}
-</style>
-
 ------------------------------------------------------------------------
 
 ## Overview
