@@ -58,7 +58,7 @@ tissue samples. This is an indication that the top 500 most variable DE
 genes provide a strong discriminatory signal between normal and tumor
 tissue samples, and will be good features to use for modeling.
 
-![](results/plots/pca_top500_variable_genes.png)
+![](analysis_plots/pca_top500_variable_genes.png)
 
 ## Feature Selection
 
@@ -169,11 +169,15 @@ auc_table
     ## 3           SVM 0.99250
     ## 4 NeuralNetwork 0.96625
 
-![](results/plots/roc_curves.png) Below is a plot that summarizes
+![](analysis_plots/roc_curves.png) 
+
+Below is a plot that summarizes
 confusion matrix results across the four models evaluated on the testing
 set (N = 20).
 
-![](results/plots/confusion_matrix_comparison.png) Here we can see the
+![](analysis_plots/confusion_matrix_comparison.png) 
+
+Here we can see the
 sensitivity and specificity in table format and summarized in a bar plot
 for all models evaluated.
 
@@ -189,7 +193,7 @@ sense_and_spec
     ## 3           SVM        0.95         1.0
     ## 4 NeuralNetwork        0.95         0.9
 
-![](results/plots/sensitivity_specificity.png)
+![](analysis_plots/sensitivity_specificity.png)
 
 All models achieved strong discrimination between tumor and normal
 samples. The logistic regression model had perfect performance, while
